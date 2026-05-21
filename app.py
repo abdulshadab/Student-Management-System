@@ -31,4 +31,4 @@ def add_student():
     return f"<h1>Success! {name} added to MySQL.</h1><a href='/'>Go Back</a>"
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=10000)
